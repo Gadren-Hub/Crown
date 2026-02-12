@@ -1,0 +1,724 @@
+<!doctype html>
+<html dir="rtl" lang="ar">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+      كراون للعناية بالشعر | منتجات العناية بالشعر من المواد العضوية والفاخرة
+    </title>
+    <meta
+      content="اكتشفي كراون للعناية بالشعر، العلامة التجارية الرائدة في منتجات العناية بالشعر الطبيعية والفاخرة. تركيبات عضوية مصممة لتغذية شعرك بعمق."
+      name="description"
+    />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,container-queries"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&amp;family=Cairo:wght@200..1000&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#006D2C", // Dark Green
+              accent: "#FE9929", // Orange
+              highlight: "#D9F0A3", // Lime Green
+              cream: "#FFFFE5",
+              "background-light": "#FFFFF0", // Off-white/Cream
+              "background-dark": "#0A1F11", // Very dark green for dark mode
+            },
+            fontFamily: {
+              display: ["Amiri", "serif"],
+              sans: ["Cairo", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "0.5rem",
+            },
+          },
+        },
+      };
+    </script>
+    <style type="text/tailwindcss">
+      .glass-nav {
+        background: rgba(255, 255, 245, 0.9);
+        backdrop-filter: blur(12px);
+      }
+      .dark .glass-nav {
+        background: rgba(10, 31, 17, 0.9);
+      }
+      .product-card-image {
+        transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .product-card:hover .product-card-image {
+        transform: scale(1.08);
+      }
+      .material-symbols-outlined {
+        font-variation-settings:
+          "FILL" 0,
+          "wght" 400,
+          "GRAD" 0,
+          "opsz" 24;
+      }
+      p {
+        line-height: 1.8;
+        letter-spacing: 0.01em;
+      }
+      h1,
+      h2,
+      h3 {
+        letter-spacing: -0.01em;
+      }
+    </style>
+  </head>
+  <body
+    class="bg-background-light dark:bg-background-dark text-gray-900 dark:text-gray-100 font-sans transition-colors duration-300 antialiased"
+  >
+    <nav class="fixed top-0 w-full z-50 glass-nav border-b border-highlight/20">
+      <div
+        class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between"
+      >
+        <div class="flex items-center space-x-12 space-x-reverse">
+          <a
+            aria-label="الصفحة الرئيسية لكراون"
+            class="flex flex-col leading-none"
+            href="/"
+          >
+            <!-- <span
+              class="text-2xl font-display font-bold text-primary tracking-wider"
+              >كراون</span
+            >
+            <span
+              class="text-[10px] font-sans font-semibold text-accent tracking-[0.2em] uppercase -mt-0.5"
+              >للعناية بالشعر</span
+            > -->
+            <div class="flex items-center">
+              <img
+                alt="CROWN Logo"
+                class="h-12 w-auto object-contain"
+                src="https://ik.imagekit.io/Gadrenkit/CrownMedia/Untitled%20design%20(6).png?updatedAt=1770878405215"
+              />
+            </div>
+          </a>
+          <div
+            class="hidden md:flex space-x-8 space-x-reverse text-xs font-bold uppercase tracking-widest"
+          >
+            <a class="hover:text-accent transition-colors" href="#our-values"
+              >قيمنا</a
+            >
+            <a class="hover:text-accent transition-colors" href="#our-story"
+              >قصتنا</a
+            >
+            <a class="hover:text-accent transition-colors" href="#shop"
+              >المنتجات</a
+            >
+            <a class="hover:text-accent transition-colors" href="#reviews"
+              >الآراء</a
+            >
+            <a class="hover:text-accent transition-colors" href="#contact"
+              >تواصل معنا</a
+            >
+          </div>
+        </div>
+        <div class="flex items-center space-x-4 md:space-x-6 space-x-reverse">
+          <!-- <button
+            aria-label="تبديل الوضع الليلي"
+            class="p-2 rounded-full hover:bg-highlight/20 transition-colors"
+            onclick="document.documentElement.classList.toggle('dark')"
+          >
+            <span class="material-symbols-outlined text-xl">dark_mode</span>
+          </button> -->
+          <!-- <a
+            aria-label="سلة التسوق"
+            class="p-2 hover:bg-highlight/20 rounded-full transition-colors relative"
+            href="#"
+          >
+            <span class="material-symbols-outlined text-xl">shopping_bag</span>
+            <span
+              class="absolute top-1 left-1 w-2 h-2 bg-accent rounded-full border border-white"
+            ></span>
+          </a> -->
+          <button aria-label="القائمة" class="md:hidden">
+            <span class="material-symbols-outlined">menu</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <header
+      class="relative h-[90vh] md:h-screen flex items-center overflow-hidden"
+    >
+      <div class="absolute inset-0 z-0">
+        <img
+          alt="امرأة بشعر صحي ولامع تعكس نتائج منتجات كراون الفاخرة"
+          class="w-full h-full object-cover"
+          src="https://ik.imagekit.io/Gadrenkit/CrownMedia/Untitled%20design%20(7).png"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-l from-primary/60 via-primary/20 to-transparent"
+        ></div>
+      </div>
+      <div class="relative z-10 max-w-7xl mx-auto px-6 w-full text-right">
+        <div class="max-w-2xl text-white">
+          <h1
+            class="text-5xl md:text-8xl font-display font-bold leading-tight mb-6"
+          >
+            اكشفي عن إشراقة شعرك مع كراون.
+          </h1>
+          <p
+            class="text-lg md:text-2xl font-light mb-10 opacity-90 leading-relaxed max-w-xl"
+          >
+            أفضل منتجات العناية بالشعر بتركيبات نباتية رائعة مصممة لتغذية كل
+            خصلة. اختبري رفاهية المكونات الطبيعية النقية والفاخرة.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a
+              href="https://wa.me/249119804029"
+              class="flex h-10 min-w-[120px] items-center justify-center rounded-lg bg-orange-500 hover:bg-orange-600 px-6 text-sm font-bold text-white shadow-lg shadow-orange-500/20 transition-all duration-300 hover:scale-105 active:scale-95"
+            >
+              اطلب الان
+            </a>
+
+            >
+            <!-- <a
+              class="border-2 border-white/50 backdrop-blur-sm px-10 py-5 rounded-full font-bold tracking-widest text-xs md:text-sm hover:bg-white hover:text-primary transition-all text-center"
+              href="#our-story"
+              >طقوسنا الخاصة</a
+            > -->
+          </div>
+        </div>
+      </div>
+      <div
+        class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce hidden md:block"
+      >
+        <span class="material-symbols-outlined text-white text-3xl"
+          >expand_more</span
+        >
+      </div>
+    </header>
+    <!-- OUR VALUES -->
+    <section
+      class="py-20 md:py-24 bg-highlight/10 dark:bg-primary/5"
+      id="our-values"
+    >
+      <div class="max-w-7xl mx-auto px-6">
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16 text-center"
+        >
+          <div class="flex flex-col items-center">
+            <div
+              class="w-16 h-16 md:w-20 md:h-20 bg-primary/10 dark:bg-highlight/10 flex items-center justify-center rounded-full mb-6"
+            >
+              <span
+                class="material-symbols-outlined text-primary text-3xl md:text-4xl"
+                >eco</span
+              >
+            </div>
+            <h3 class="text-xl md:text-2xl font-display font-bold mb-4">
+              100% منتجات شعر 'طبيعية'
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 text-sm md:text-base">
+              خلاصات نباتية نقية وطبيعية من مصادر مستدامة لضمان أفضل عناية.
+            </p>
+          </div>
+          <div class="flex flex-col items-center">
+            <div
+              class="w-16 h-16 md:w-20 md:h-20 bg-primary/10 dark:bg-highlight/10 flex items-center justify-center rounded-full mb-6"
+            >
+              <span
+                class="material-symbols-outlined text-primary text-3xl md:text-4xl"
+                >pets</span
+              >
+            </div>
+            <h3 class="text-xl md:text-2xl font-display font-bold mb-4">
+              بدون تجارب حيوانية
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 text-sm md:text-base">
+              التزامنا بالأخلاقيات يضمن عدم إجراء أي تجارب على الحيوانات في أي
+              مرحلة من مراحل التصنيع.
+            </p>
+          </div>
+          <div class="flex flex-col items-center">
+            <div
+              class="w-16 h-16 md:w-20 md:h-20 bg-primary/10 dark:bg-highlight/10 flex items-center justify-center rounded-full mb-6"
+            >
+              <span
+                class="material-symbols-outlined text-primary text-3xl md:text-4xl"
+                >workspace_premium</span
+              >
+            </div>
+            <h3 class="text-xl md:text-2xl font-display font-bold mb-4">
+              جودة فاخرة
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 text-sm md:text-base">
+              تم مزجها بدقة لضمان الفعالية والكمال الحرفي لخدمة جمالك.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR STORY -->
+    <section class="flex flex-col md:grid md:grid-cols-2" id="our-story">
+      <div class="h-[400px] md:h-[700px] overflow-hidden order-1 md:order-none">
+        <img
+          alt="تراث كراون للعناية بالشعر والمكونات الطبيعية المستوحاة من حضارة نهر النيل "
+          class="w-full h-full object-cover"
+          src="https://ik.imagekit.io/Gadrenkit/CrownMedia/Gemini_Generated_Image_3qnj1c3qnj1c3qnj.png?updatedAt=1770883300803"
+        />
+      </div>
+      <div
+        class="bg-orange-600 flex items-center justify-center px-8 md:px-20 py-20 text-white order-2 md:order-none text-right"
+      >
+        <div class="max-w-lg">
+          <span
+            class="uppercase tracking-widest text-highlight text-xs md:text-sm font-bold block mb-4"
+            >تراثنا</span
+          >
+          <h2 class="text-3xl md:text-5xl font-display font-bold mb-8">
+            عناية فاخرة صُنعت للملوك، مستوحاة من الطبيعة.
+          </h2>
+          <p class="text-base md:text-lg leading-relaxed mb-8 opacity-80">
+            تأسست كراون هير كير للعناية بالشعر في وادي نهر النيل الخصب وبدأت
+            كمختبر صغير مخصص للحفاظ على أسرار طقوس الجمال القديمة باستخدام أفضل
+            منتجات العناية بالشعر الطبيعية. واليوم، نجمع بين الحكمة التقليدية
+            والعلم الحديث.
+          </p>
+          <p class="text-base md:text-lg leading-relaxed mb-10 opacity-80">
+            تمثل كل زجاجة تفانينا في صحة الشعر، والمسؤولية البيئية، والإيمان بأن
+            العناية بالذات هي طقس مقدس يستحقه كل فرد.
+          </p>
+          <!-- <a
+            class="inline-block border-b-2 border-highlight text-highlight font-semibold pb-1 hover:text-white hover:border-white transition-all uppercase tracking-widest text-xs md:text-sm"
+            href="#"
+            >قراءة القصة كاملة</a
+          > -->
+          <p class="text-base md:text-lg leading-relaxed mb-10 opacity-80">
+            نسعى كراون هير كير دوما لتقديم كل ما هو مميز
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="py-20 md:py-24 max-w-7xl mx-auto px-6" id="shop">
+      <div
+        class="flex flex-col md:flex-row md:items-end justify-between mb-12 md:mb-16"
+      >
+        <div class="text-right">
+          <h2 class="text-3xl md:text-5xl font-display font-bold mb-4">
+            تشكيلة منتجات الشعر الفاخرة
+          </h2>
+          <p class="text-gray-600 dark:text-gray-400">
+            اكتشفي الاكسير المناسب لنوع شعركِ.
+          </p>
+        </div>
+        <!-- <a
+          class="mt-6 md:mt-0 flex items-center text-primary font-bold hover:text-accent transition-colors"
+          href="#"
+        >
+          عرض التشكيلة الكاملة
+          <span class="material-symbols-outlined mr-2 text-xl rotate-180"
+            >arrow_forward</span
+          >
+        </a> -->
+      </div>
+      <div class="flex flex-col gap-12">
+        <div
+          class="product-card flex flex-col md:flex-row bg-white dark:bg-white/5 rounded-3xl overflow-hidden shadow-xl shadow-primary/5 group border border-gray-100 dark:border-gray-800 transition-all duration-300"
+        >
+          <div
+            class="w-full md:w-[45%] lg:w-1/2 overflow-hidden aspect-[4/3] md:aspect-auto md:order-last"
+          >
+            <img
+              alt="زيت كراون لتحفيز النمو و التطويل من كراون هير كير"
+              class="product-card-image w-full h-full object-cover"
+              src="https://ik.imagekit.io/Gadrenkit/CrownMedia/1770628546950.png?updatedAt=1770827213784"
+            />
+          </div>
+          <div
+            class="w-full md:w-[55%] lg:w-1/2 p-8 md:p-12 lg:p-16 flex flex-col text-right"
+          >
+            <div class="mb-auto">
+              <div class="flex flex-wrap items-center gap-4 mb-6">
+                <span
+                  class="bg-highlight/30 text-primary text-[10px] md:text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest"
+                  >الأكثر مبيعاً</span
+                >
+              </div>
+              <h3 class="text-3xl lg:text-4xl font-display font-bold mb-6">
+                زيت كراون للتطويل و التحفيز
+              </h3>
+              <p
+                class="text-gray-600 dark:text-gray-400 leading-relaxed mb-8 text-base md:text-lg"
+              >
+                زيت ترميم مكثف غني بالأرغان المغربي المعصور على البارد والياسمين
+                الرقيق للتطويل السريع في 4 اسابيع. يعيد التألق ويهدئ التجعد
+                بقطرة واحدة من الطبيعة. زيت شعر طبيعي يضفي البريق و النعومة و
+                المرونة لشعرك - 200 مل
+              </p>
+            </div>
+            <div
+              class="flex flex-col sm:flex-row sm:items-center justify-between gap-6 mt-8 pt-8 border-t border-gray-100 dark:border-gray-800"
+            >
+              <span class="text-3xl md:text-4xl font-display font-bold"
+                >140 جنيه مصري</span
+              >
+              <a
+                href="https://wa.me/249119804029"
+                class="flex h-10 min-w-[120px] items-center justify-center rounded-lg bg-orange-500 hover:bg-orange-600 px-6 text-sm font-bold text-white shadow-lg shadow-orange-500/30 transition-all duration-300 hover:scale-105 active:scale-95"
+              >
+                اطلبي الآن
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="product-card flex flex-col md:flex-row bg-white dark:bg-white/5 rounded-3xl overflow-hidden shadow-xl shadow-primary/5 group border border-gray-100 dark:border-gray-800 transition-all duration-300"
+        >
+          <div
+            class="w-full md:w-[45%] lg:w-1/2 overflow-hidden aspect-[4/3] md:aspect-auto md:order-last"
+          >
+            <img
+              alt="كريم كراون للترطيب و التنعيم و الحماية من كراون هير كير"
+              class="product-card-image w-full h-full object-cover"
+              src="https://ik.imagekit.io/Gadrenkit/CrownMedia/1770627827279.png?updatedAt=1770827158896"
+            />
+          </div>
+          <div
+            class="w-full md:w-[55%] lg:w-1/2 p-8 md:p-12 lg:p-16 flex flex-col text-right"
+          >
+            <div class="mb-auto">
+              <!-- <div class="flex flex-wrap items-center gap-4 mb-6">
+                <span
+                  class="bg-blue-100 text-blue-800 text-[10px] md:text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest"
+                  >حائز على جوائز</span
+                >
+              </div> -->
+              <h3 class="text-3xl lg:text-4xl font-display font-bold mb-6">
+                كريم كراون للترطيب و التنعيم
+              </h3>
+              <p
+                class="text-gray-600 dark:text-gray-400 leading-relaxed mb-8 text-base md:text-lg"
+              >
+                مصمم من زبدة الشيا الغنية بالمغذيات وبروتين جنين القمح. يتغلغل
+                في جذع الشعرة لتوفير ترطيب عميق وإصلاح هيكلي من الداخل بلمسة
+                فاخرة. للترطيب و التغذية و التنعيم و تقليل النفشة - 200 جم
+              </p>
+            </div>
+            <div
+              class="flex flex-col sm:flex-row sm:items-center justify-between gap-6 mt-8 pt-8 border-t border-gray-100 dark:border-gray-800"
+            >
+              <span class="text-3xl md:text-4xl font-display font-bold"
+                >210 جنيه مصري</span
+              >
+              <a
+                href="https://wa.me/249119804029"
+                class="flex h-10 min-w-[120px] items-center justify-center rounded-lg bg-orange-500 hover:bg-orange-600 px-6 text-sm font-bold text-white shadow-lg shadow-orange-500/30 transition-all duration-300 hover:scale-105 active:scale-95"
+              >
+                اطلبي الآن
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="product-card flex flex-col md:flex-row bg-white dark:bg-white/5 rounded-3xl overflow-hidden shadow-xl shadow-primary/5 group border border-gray-100 dark:border-gray-800 transition-all duration-300"
+        >
+          <div
+            class="w-full md:w-[45%] lg:w-1/2 overflow-hidden aspect-[4/3] md:aspect-auto md:order-last"
+          >
+            <img
+              alt="تونيك كراون للتغزير و الانبات، علاج عضوي لتحفيز الشعر من كراون هير كير"
+              class="product-card-image w-full h-full object-cover"
+              src="https://ik.imagekit.io/Gadrenkit/CrownMedia/1770628487787.png?updatedAt=1770827187997"
+            />
+          </div>
+          <div
+            class="w-full md:w-[55%] lg:w-1/2 p-8 md:p-12 lg:p-16 flex flex-col text-right"
+          >
+            <div class="mb-auto">
+              <div class="flex flex-wrap items-center gap-4 mb-6">
+                <span
+                  class="bg-blue-100 text-blue-800 text-[10px] md:text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest"
+                  >حائز على جوائز</span
+                >
+              </div>
+              <h3 class="text-3xl lg:text-4xl font-display font-bold mb-6">
+                تونيك كراون للتغزير و الانبات
+              </h3>
+              <p
+                class="text-gray-600 dark:text-gray-400 leading-relaxed mb-8 text-base md:text-lg"
+              >
+                مستخلص من زهزر القرنفل و نبات الصبار الملطف. يحفز بصيلات الشعر
+                ويحفز النمو بصورة فعالة. للتغزير و تقليل التساقط و انبات
+                الفراغات و التعطير - 200 مل
+              </p>
+            </div>
+            <div
+              class="flex flex-col sm:flex-row sm:items-center justify-between gap-6 mt-8 pt-8 border-t border-gray-100 dark:border-gray-800"
+            >
+              <span class="text-3xl md:text-4xl font-display font-bold"
+                >80 جنيه مصري</span
+              >
+              <a
+                href="https://wa.me/249119804029"
+                class="flex h-10 min-w-[120px] items-center justify-center rounded-lg bg-orange-500 hover:bg-orange-600 px-6 text-sm font-bold text-white shadow-lg shadow-orange-500/30 transition-all duration-300 hover:scale-105 active:scale-95"
+              >
+                اطلبي الآن
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEO -->
+    <section
+      class="relative h-[700px] md:h-[800px] flex items-center justify-center overflow-hidden"
+    >
+      <div class="absolute inset-0 z-0">
+        <video
+          class="h-full w-full object-cover contrast-110 saturate-110 brightness-75"
+          autoplay
+          muted
+          loop
+          playsinline
+        >
+          <source
+            src="https://ik.imagekit.io/Gadrenkit/CrownMedia/InShot_20260212_133524885.mp4?updatedAt=1770889040932.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <!-- <div class="absolute inset-0 bg-primary/50 backdrop-blur-[1px]"></div> -->
+      </div>
+      <!-- <div class="relative z-10 text-center px-6">
+        <h2
+          class="text-4xl md:text-7xl font-display font-bold text-white mb-10 leading-tight"
+        >
+          التحول <br class="hidden md:block" />
+          بانتظاركِ.
+        </h2>
+        <button
+          class="bg-white text-primary px-10 py-5 md:px-14 md:py-6 rounded-full font-bold tracking-widest text-xs md:text-sm hover:scale-105 transition-all shadow-2xl"
+        >
+          تسوقي التشكيلة الآن
+        </button>
+      </div> -->
+    </section>
+
+    <!-- REVIEWS -->
+    <section
+      class="py-20 md:py-24 bg-background-light dark:bg-background-dark"
+      id="reviews"
+    >
+      <div class="max-w-7xl mx-auto px-6">
+        <h2
+          class="text-3xl md:text-4xl font-display font-bold text-center mb-16 italic"
+        >
+          كلمات من المتوجات بجمال كراون
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div
+            class="p-8 bg-white dark:bg-white/5 rounded-2xl shadow-sm border border-highlight/20 text-right"
+          >
+            <div class="flex text-accent mb-4 space-x-1 space-x-reverse">
+              <span class="material-symbols-outlined fill-1">star</span>
+              <span class="material-symbols-outlined fill-1">star</span>
+              <span class="material-symbols-outlined fill-1">star</span>
+              <span class="material-symbols-outlined fill-1">star</span>
+              <span class="material-symbols-outlined fill-1">star</span>
+            </div>
+            <h3 class="text-lg italic font-display font-bold mb-4">
+              "تغيير جذري في روتيني"
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 mb-6">
+              "ما حسيت بالنعومة و لا الترطيب زي ما حسيتها بعد استخدام زيت
+              كراون!"
+            </p>
+            <div class="flex items-center">
+              <div class="w-10 h-10 rounded-full bg-primary/20 ml-4"></div>
+              <div>
+                <p class="font-bold">هديل م.</p>
+                <!-- <p class="text-sm text-gray-500">مشترية مؤكدة</p> -->
+              </div>
+            </div>
+          </div>
+          <div
+            class="p-8 bg-white dark:bg-white/5 rounded-2xl shadow-sm border border-highlight/20 md:scale-105 md:shadow-xl relative z-10 text-right"
+          >
+            <div class="flex text-accent mb-4 space-x-1 space-x-reverse">
+              <span class="material-symbols-outlined fill-1">star</span>
+              <span class="material-symbols-outlined fill-1">star</span>
+              <span class="material-symbols-outlined fill-1">star</span>
+              <span class="material-symbols-outlined fill-1">star</span>
+              <span class="material-symbols-outlined fill-1">star</span>
+            </div>
+            <h3 class="text-lg italic font-display font-bold mb-4">
+              "تجربتي انا و بناتي"
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 mb-6">
+              "أنا مهووسة بالرائحة والنتائج. الموضوع مش بس تقليل النفشة و الطول,
+              وكمان الرائحة"
+            </p>
+            <div class="flex items-center">
+              <div class="w-10 h-10 rounded-full bg-primary/20 ml-4"></div>
+              <div>
+                <p class="font-bold">أم لين و شذا.</p>
+                <!-- <p class="text-sm text-gray-500">منسقة شعر</p> -->
+              </div>
+            </div>
+          </div>
+          <div
+            class="p-8 bg-white dark:bg-white/5 rounded-2xl shadow-sm border border-highlight/20 text-right"
+          >
+            <div class="flex text-accent mb-4 space-x-1 space-x-reverse">
+              <span class="material-symbols-outlined fill-1">star</span>
+              <span class="material-symbols-outlined fill-1">star</span>
+              <span class="material-symbols-outlined fill-1">star</span>
+              <span class="material-symbols-outlined fill-1">star</span>
+              <span class="material-symbols-outlined fill-1">star</span>
+            </div>
+            <h3 class="text-lg italic font-display font-bold mb-4">
+              "أفضل منتج طبيعي"
+            </h3>
+            <p class="text-gray-600 dark:text-gray-400 mb-6">
+              "أخيراً علامة تجارية طبيعية تعمل علي التغذية و الحماية. مجموعة
+              كراون."
+            </p>
+            <div class="flex items-center">
+              <div class="w-10 h-10 rounded-full bg-primary/20 ml-4"></div>
+              <div>
+                <p class="font-bold">د. رشا</p>
+                <!-- <p class="text-sm text-gray-500">مشترية مؤكدة</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-20 md:py-24 max-w-7xl mx-auto px-6" id="contact">
+      <div
+        class="bg-primary/5 dark:bg-primary/10 rounded-[2rem] p-8 md:p-16 lg:p-20 flex flex-col md:flex-row gap-16 text-right"
+      >
+        <div class="md:w-1/2">
+          <h2 class="text-3xl md:text-5xl font-display font-bold mb-6">
+            دعونا نتواصل
+          </h2>
+          <p
+            class="text-gray-600 dark:text-gray-400 mb-10 leading-relaxed text-lg"
+          >
+            هل لديكِ أسئلة حول روتين شعركِ أو أفضل منتجات العناية بالشعر؟ نحن
+            متاحون لتقديم استشارات ومساعدة شخصية.
+          </p>
+          <div class="space-y-6">
+            <div class="flex items-center">
+              <span class="material-symbols-outlined text-primary ml-4"
+                >mail</span
+              >
+              <span>support@crownhaircare.com</span>
+            </div>
+            <div class="flex items-center">
+              <span class="material-symbols-outlined text-primary ml-4"
+                >phone_iphone</span
+              >
+              <span>+249 119 804029 </span>
+            </div>
+            <div class="flex items-center">
+              <span class="material-symbols-outlined text-primary ml-4"
+                >location_on</span
+              >
+              <span>القاهرة - مصر </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="py-12 bg-white dark:bg-background-dark border-t border-gray-100 dark:border-gray-800"
+    >
+      <div class="max-w-7xl mx-auto px-6 text-right">
+        <h2 class="text-xl font-display font-bold mb-4 text-primary">
+          كراون: المعيار الذهبي في منتجات العناية بالشعر
+        </h2>
+        <div
+          class="prose prose-sm dark:prose-invert max-w-none text-gray-600 dark:text-gray-400"
+        >
+          <p>
+            نحن في <strong>كراون للعناية بالشعر</strong> نؤمن بأن كل امرأة تستحق
+            شعراً يتوج جمالها. لذا قمنا بتطوير مجموعة من
+            <strong>منتجات العناية بالشعر</strong> التي تجمع بين الفعالية القصوى
+            والمكونات <strong>الطبيعية</strong> 100%. سواء كنتِ تبحثين عن زيت
+            مغذٍ أو قناع مرطب، فإن كل منتج في تشكيلتنا يمثل مفهوماً جديداً
+            للجمال <strong>الفاخر</strong>. نعتمد في تركيباتنا على خلاصات نباتية
+            <strong>عضوية</strong> وخالية من المواد الكيميائية الضارة لضمان صحة
+            شعرك ولمعانه الدائم.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-primary text-white pt-20 pb-10 text-center">
+      <div class="max-w-7xl mx-auto px-6">
+        <div
+          class="mx-auto flex max-w-[1280px] flex-col items-center gap-3 min-h-[60vh] justify-between py-10"
+        >
+          <!-- اللوجو في الأعلى -->
+          <a
+            aria-label="الصفحة الرئيسية لكراون"
+            class="flex flex-col items-center leading-none"
+            href="/"
+          >
+            <img
+              alt="CROWN Logo"
+              class="h-12 w-auto object-contain"
+              src="https://ik.imagekit.io/Gadrenkit/CrownMedia/Untitled%20design%20(6).png?updatedAt=1770878405215"
+            />
+          </a>
+
+          <!-- النص في الوسط -->
+          <p class="text-white/60 leading-relaxed max-w-xs text-center">
+            المعيار الذهبي في العناية العضوية بالشعر. نرتقي بروتينكِ اليومي إلى
+            طقس من حب الذات والرفاهية.
+          </p>
+
+          <!-- الأيقونات في الأسفل -->
+          <div class="flex space-x-4">
+            <a
+              aria-label="فيسبوك"
+              class="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center hover:bg-white hover:text-primary transition-all"
+              href="#"
+            >
+              <span class="material-symbols-outlined text-lg">public</span>
+            </a>
+            <a
+              aria-label="انستغرام"
+              class="w-10 h-10 border border-white/20 rounded-full flex items-center justify-center hover:bg-white hover:text-primary transition-all"
+              href="#"
+            >
+              <span class="material-symbols-outlined text-lg"
+                >photo_camera</span
+              >
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="border-t border-white/10 pt-10 flex flex-col md:flex-row justify-center items-center text-[10px] md:text-xs text-white/40 uppercase tracking-widest gap-4"
+        >
+          <p>© 2024 كراون للعناية بالشعر. جميع الحقوق محفوظة لجمالكِ.</p>
+          <div class="flex space-x-8 space-x-reverse mt-4 md:mt-0">
+            <p>صُمم للأناقة</p>
+            <p>مدعوم من الطبيعة</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
